@@ -4,10 +4,15 @@ contract StormBit {
 
     event PoolCreated(address indexed creator, uint256 poolId, string name);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     event AgreementCreated(address indexed aggreement, uint256 agreementId, string name);
 
 >>>>>>> 0163ca7 (Merge branch 'main' of github.com:Quantum3-Labs/StormBit-monorepo)
+=======
+    event AgreementCreated(address indexed aggreement, uint256 agreementId, string name);
+
+>>>>>>> cedaa00 (update contracts)
     struct PoolConfig {
         uint256 minCreditScore;
         uint256 quorum;
@@ -31,7 +36,10 @@ contract StormBit {
     mapping(uint256 => mapping(uint256 => bool)) public poolAgreements;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> cedaa00 (update contracts)
     constructor() {
         _createAgreement("Base Agreement", address(1));
         _createAgreement("NFT Agreement", address(2));
@@ -39,7 +47,10 @@ contract StormBit {
 
     }
 
+<<<<<<< HEAD
 >>>>>>> 0163ca7 (Merge branch 'main' of github.com:Quantum3-Labs/StormBit-monorepo)
+=======
+>>>>>>> cedaa00 (update contracts)
     function createPool(string memory _name, PoolConfig memory _config) public {
         StormPool memory pool = StormPool(msg.sender, 1, _name);
         pools[poolIds] = pool;
@@ -62,7 +73,10 @@ contract StormBit {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> cedaa00 (update contracts)
     function createAgreement(string memory _name, address _agreement) public returns (uint256) {
         return _createAgreement(_name, _agreement);
     }
@@ -71,16 +85,24 @@ contract StormBit {
         _supportAgreement(_poolId, _agreementId);
     }
 
+<<<<<<< HEAD
 >>>>>>> 0163ca7 (Merge branch 'main' of github.com:Quantum3-Labs/StormBit-monorepo)
+=======
+>>>>>>> cedaa00 (update contracts)
     function _supportAgreement(uint256 _poolId, uint256 _agreementId) internal {
         poolAgreements[_poolId][_agreementId] = true;
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     function _addAgreement(address _agreement) internal returns (uint256) {
+=======
+    function _createAgreement(string memory _name, address _agreement) internal returns (uint256) {
+>>>>>>> cedaa00 (update contracts)
         uint256 agreementId = aggreementIds;
-        agreements[aggreementIds] = _agreement;
+        agreements[agreementId] = _agreement;
         aggreementIds++;
+<<<<<<< HEAD
 =======
     function _createAgreement(string memory _name, address _agreement) internal returns (uint256) {
         uint256 agreementId = aggreementIds;
@@ -88,6 +110,9 @@ contract StormBit {
         aggreementIds++;
         emit AgreementCreated(_agreement, agreementId, _name);
 >>>>>>> 0163ca7 (Merge branch 'main' of github.com:Quantum3-Labs/StormBit-monorepo)
+=======
+        emit AgreementCreated(_agreement, agreementId, _name);
+>>>>>>> cedaa00 (update contracts)
         return agreementId;
     }
 
