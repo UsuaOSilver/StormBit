@@ -65,9 +65,12 @@ const CreationModal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
     setIsModalOpen();
   };
 
+<<<<<<< HEAD
   console.log(data, "gab");
   console.log(createPoolLoading);
 
+=======
+>>>>>>> 69410e3 (merge conflicts)
   return (
     <div className="container-modal">
       <div className="gap-4 content-modal">

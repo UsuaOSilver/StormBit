@@ -8,11 +8,19 @@ import { useScaffoldContractRead } from "~~/hooks/scaffold-eth";
 
 function Table() {
 
+<<<<<<< HEAD
   const poolId = 1;
   const { data } = useScaffoldContractRead({
     contractName: "StormBit",
     functionName: "getPoolData",
     args: [BigInt(poolId)],
+=======
+  // get the events from the contract
+  const { data: poolAddresses, isLoading: poolAddressesLoading } = useScaffoldContractRead({
+    contractName: "StormBitCore",
+    functionName: "getPools",
+    watch: true,
+>>>>>>> 69410e3 (merge conflicts)
   });
 
   // const dd = [];
