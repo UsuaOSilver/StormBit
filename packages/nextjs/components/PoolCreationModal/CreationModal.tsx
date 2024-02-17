@@ -266,6 +266,7 @@ const CreationModal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
         </div>
         <div className="flex items-center justify-center">
 <<<<<<< HEAD
+<<<<<<< HEAD
           <Button
 <<<<<<< HEAD
             onClick={createPool}
@@ -279,6 +280,9 @@ const CreationModal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
 =======
           <Button onClick={() => approveTokens()} size="large">
 >>>>>>> 814ce69 (merge conflicts)
+=======
+          <Button onClick={() => approveTokens()} size="large">
+>>>>>>> 13b6f35 (Merge branch 'dev/Gabriela' of github.com:Quantum3-Labs/StormBit-monorepo into dev/Gabriela)
             Create Pool
           </Button>
         </div>
