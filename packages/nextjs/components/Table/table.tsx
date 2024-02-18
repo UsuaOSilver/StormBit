@@ -35,7 +35,6 @@ function Table() {
 >>>>>>> 814ce69 (merge conflicts)
   });
 
-  console.log("poolAddresses", poolAddresses);
   const { data: LendingContract } = useScaffoldContract({
     contractName: "StormBitLending",
   });
