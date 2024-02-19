@@ -355,10 +355,14 @@ const deployedContracts = {
     },
     SimpleAgreement: {
 <<<<<<< HEAD
+<<<<<<< HEAD
       address: "0x7C7AB8D85f87BC3065BA63e0D773Ed49B5C7EF31",
 =======
       address: "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
 >>>>>>> c4e5a7a (fix: pass form value to request loan function)
+=======
+      address: "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+>>>>>>> 5204e80 (Merge branch 'dev/ngyixuan' of https://github.com/Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
       abi: [
         {
           inputs: [],
@@ -561,10 +565,14 @@ const deployedContracts = {
     },
     StormBitCore: {
 <<<<<<< HEAD
+<<<<<<< HEAD
       address: "0x32419B24ee80b3eB9483ABea153dcB4c41F6d968",
 =======
       address: "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
 >>>>>>> c4e5a7a (fix: pass form value to request loan function)
+=======
+      address: "0x610178dA211FEF7D417bC0e6FeD39F05609AD788",
+>>>>>>> 5204e80 (Merge branch 'dev/ngyixuan' of https://github.com/Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
       abi: [
         {
           inputs: [
@@ -3170,12 +3178,9 @@ const deployedContracts = {
         initializeLending: "contracts/interfaces/IStormBitLending.sol",
         requestLoan: "contracts/interfaces/IStormBitLending.sol",
         stake: "contracts/interfaces/IStormBitLending.sol",
-        owner:
-          "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
-        renounceOwnership:
-          "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
-        transferOwnership:
-          "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        owner: "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        renounceOwnership: "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        transferOwnership: "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
         BALLOT_TYPEHASH:
           "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         CLOCK_MODE:
@@ -3184,8 +3189,7 @@ const deployedContracts = {
           "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         EXTENDED_BALLOT_TYPEHASH:
           "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
-        cancel:
-          "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
+        cancel: "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         castVote:
           "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         castVoteBySig:
@@ -3196,12 +3200,10 @@ const deployedContracts = {
           "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         castVoteWithReasonAndParamsBySig:
           "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
-        clock:
-          "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
+        clock: "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         eip712Domain:
           "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
-        execute:
-          "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
+        execute: "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         getVotes:
           "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         getVotesWithParams:
@@ -3211,8 +3213,7 @@ const deployedContracts = {
         hashProposal:
           "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         name: "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
-        nonces:
-          "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
+        nonces: "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         onERC1155BatchReceived:
           "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         onERC1155Received:
@@ -3231,28 +3232,21 @@ const deployedContracts = {
           "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         proposalThreshold:
           "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
-        propose:
-          "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
-        queue:
-          "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
-        quorum:
-          "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
-        relay:
-          "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
-        state:
-          "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
+        propose: "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
+        queue: "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
+        quorum: "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
+        relay: "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
+        state: "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         supportsInterface:
           "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
-        version:
-          "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
+        version: "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         votingDelay:
           "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         votingPeriod:
           "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         proposalVotes:
           "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorCountingSimpleUpgradeable.sol",
-        token:
-          "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
+        token: "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         quorumDenominator:
           "@openzeppelin/contracts-upgradeable/governance/extensions/GovernorVotesQuorumFractionUpgradeable.sol",
         quorumNumerator:
@@ -3263,10 +3257,14 @@ const deployedContracts = {
     },
     StormBitLendingVotes: {
 <<<<<<< HEAD
+<<<<<<< HEAD
       address: "0x4aea723E61DD123b8196DfD4039403d522e003C3",
 =======
       address: "0x0165878A594ca255338adfa4d48449f69242Eb8F",
 >>>>>>> c4e5a7a (fix: pass form value to request loan function)
+=======
+      address: "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
+>>>>>>> 5204e80 (Merge branch 'dev/ngyixuan' of https://github.com/Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
       abi: [
         {
           inputs: [],
@@ -4255,57 +4253,32 @@ const deployedContracts = {
         },
       ],
       inheritedFunctions: {
-        owner:
-          "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
-        renounceOwnership:
-          "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
-        transferOwnership:
-          "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
-        allowance:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        approve:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        balanceOf:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        decimals:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        owner: "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        renounceOwnership: "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        transferOwnership: "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        allowance: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        approve: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        balanceOf: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        decimals: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
         name: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        symbol:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        totalSupply:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        transfer:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        transferFrom:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        DOMAIN_SEPARATOR:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20PermitUpgradeable.sol",
-        eip712Domain:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        nonces:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        permit:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20PermitUpgradeable.sol",
-        CLOCK_MODE:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        checkpoints:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        clock:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        delegate:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        delegateBySig:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        delegates:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        getPastTotalSupply:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        getPastVotes:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        getVotes:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
-        numCheckpoints:
-          "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        symbol: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        totalSupply: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        transfer: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        transferFrom: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        DOMAIN_SEPARATOR: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20PermitUpgradeable.sol",
+        eip712Domain: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        nonces: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        permit: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20PermitUpgradeable.sol",
+        CLOCK_MODE: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        checkpoints: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        clock: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        delegate: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        delegateBySig: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        delegates: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        getPastTotalSupply: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        getPastVotes: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        getVotes: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
+        numCheckpoints: "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20VotesUpgradeable.sol",
       },
     },
   },

@@ -119,7 +119,7 @@ function Borrow({ poolAddress }: BorrowProps) {
             value={borrowConfig.amount.toString()}
             onChange={e => setBorrowConfig({ ...borrowConfig, amount: BigInt(e.target.value) })}
             type="number"
-            className="p-1 focus:outline-none"
+            className="p-1 focus:outline-none w-[500px] border-none"
           ></input>
 >>>>>>> c4e5a7a (fix: pass form value to request loan function)
           <div className="flex items-center justify-center px-1">
@@ -210,7 +210,7 @@ function Borrow({ poolAddress }: BorrowProps) {
                     })
                   }
                   type="text"
-                  className="p-1 focus:outline-none"
+                  className="p-1 focus:outline-none w-[500px] border-none"
                 ></input>
 >>>>>>> c4e5a7a (fix: pass form value to request loan function)
                 <div className="flex items-center justify-center px-1">
@@ -264,13 +264,24 @@ function Borrow({ poolAddress }: BorrowProps) {
                 </div>
               </div>
               <span>Penalty</span>
+<<<<<<< HEAD
               <input type="text" className="p-1 focus:outline-none border border-solid border-[#EAEBEF] rounded-[5px]"/>
+=======
+              <input
+                type="text"
+                className="p-1 focus:outline-none border border-solid border-[#EAEBEF] rounded-[5px]"
+              />
+>>>>>>> 5204e80 (Merge branch 'dev/ngyixuan' of https://github.com/Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
             </div>
           )}
           {selectedAgreement === "nft" && (
             <div className="flex flex-col">
               <span>NFT Address</span>
+<<<<<<< HEAD
               <input type="text" className="focus:outline-none"/>
+=======
+              <input type="text" className="focus:outline-none" />
+>>>>>>> 5204e80 (Merge branch 'dev/ngyixuan' of https://github.com/Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
               <span>Token</span>
               <div className="flex border border-solid border-[#EAEBEF] rounded-[5px] justify-between">
                 <input type="text" className="p-1 w-[500px] focus:outline-none border-none"></input>
