@@ -354,7 +354,11 @@ const deployedContracts = {
       },
     },
     SimpleAgreement: {
+<<<<<<< HEAD
       address: "0x7C7AB8D85f87BC3065BA63e0D773Ed49B5C7EF31",
+=======
+      address: "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+>>>>>>> c4e5a7a (fix: pass form value to request loan function)
       abi: [
         {
           inputs: [],
@@ -556,7 +560,11 @@ const deployedContracts = {
       },
     },
     StormBitCore: {
+<<<<<<< HEAD
       address: "0x32419B24ee80b3eB9483ABea153dcB4c41F6d968",
+=======
+      address: "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+>>>>>>> c4e5a7a (fix: pass form value to request loan function)
       abi: [
         {
           inputs: [
@@ -885,7 +893,11 @@ const deployedContracts = {
       },
     },
     StormBitLending: {
+<<<<<<< HEAD
       address: "0xc850f4FAd122B3A988219e70e836660FAA67c4a2",
+=======
+      address: "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+>>>>>>> c4e5a7a (fix: pass form value to request loan function)
       abi: [
         {
           inputs: [],
@@ -3250,7 +3262,11 @@ const deployedContracts = {
       },
     },
     StormBitLendingVotes: {
+<<<<<<< HEAD
       address: "0x4aea723E61DD123b8196DfD4039403d522e003C3",
+=======
+      address: "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+>>>>>>> c4e5a7a (fix: pass form value to request loan function)
       abi: [
         {
           inputs: [],
