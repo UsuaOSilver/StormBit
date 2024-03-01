@@ -5,9 +5,9 @@
 import { GenericContractsDeclaration } from "~~/utils/scaffold-eth/contract";
 
 const deployedContracts = {
-  31337: {
+  51: {
     MockToken: {
-      address: "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      address: "0xdCE15A1d3dE15431CEab22Fc906E7396a2569c72",
       abi: [
         {
           inputs: [],
@@ -357,6 +357,7 @@ const deployedContracts = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       address: "0x7C7AB8D85f87BC3065BA63e0D773Ed49B5C7EF31",
 =======
       address: "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
@@ -367,6 +368,9 @@ const deployedContracts = {
 =======
       address: "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
 >>>>>>> 20cd9c0 (Merge branch 'dev/ngyixuan' of github.com:Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
+=======
+      address: "0x70E5Db80338522F5C9A46Eb85AAA11ae501eB34b",
+>>>>>>> 3732883 (finish some function integration)
       abi: [
         {
           inputs: [],
@@ -417,6 +421,19 @@ const deployedContracts = {
               internalType: "uint256[]",
               name: "",
               type: "uint256[]",
+            },
+          ],
+          stateMutability: "view",
+          type: "function",
+        },
+        {
+          inputs: [],
+          name: "hasWithdrawn",
+          outputs: [
+            {
+              internalType: "bool",
+              name: "",
+              type: "bool",
             },
           ],
           stateMutability: "view",
@@ -555,6 +572,7 @@ const deployedContracts = {
       inheritedFunctions: {
         borrower: "contracts/AgreementBedrock.sol",
         getPaymentDates: "contracts/AgreementBedrock.sol",
+        hasWithdrawn: "contracts/AgreementBedrock.sol",
         initialize: "contracts/AgreementBedrock.sol",
         isLoanFinished: "contracts/AgreementBedrock.sol",
         lateFee: "contracts/AgreementBedrock.sol",
@@ -571,6 +589,7 @@ const deployedContracts = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       address: "0x32419B24ee80b3eB9483ABea153dcB4c41F6d968",
 =======
       address: "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
@@ -581,6 +600,9 @@ const deployedContracts = {
 =======
       address: "0x610178dA211FEF7D417bC0e6FeD39F05609AD788",
 >>>>>>> 20cd9c0 (Merge branch 'dev/ngyixuan' of github.com:Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
+=======
+      address: "0xf9e46fb24842635604de456681148b951F8e2CA9",
+>>>>>>> 3732883 (finish some function integration)
       abi: [
         {
           inputs: [
@@ -912,6 +934,7 @@ const deployedContracts = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       address: "0xc850f4FAd122B3A988219e70e836660FAA67c4a2",
 =======
       address: "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
@@ -922,6 +945,9 @@ const deployedContracts = {
 =======
       address: "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6",
 >>>>>>> 20cd9c0 (Merge branch 'dev/ngyixuan' of github.com:Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
+=======
+      address: "0xa469458A8De06c6433407DD9c1e82A18126e451f",
+>>>>>>> 3732883 (finish some function integration)
       abi: [
         {
           inputs: [],
@@ -3286,6 +3312,7 @@ const deployedContracts = {
       },
     },
     StormBitLendingVotes: {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7587,6 +7614,9 @@ const deployedContracts = {
     },
     StormBitLendingVotes: {
       address: "0x4aea723E61DD123b8196DfD4039403d522e003C3",
+=======
+      address: "0x4dD955166E2d614dd30951b0b7D1788aeFbA02AB",
+>>>>>>> 3732883 (finish some function integration)
       abi: [
         {
           inputs: [],
