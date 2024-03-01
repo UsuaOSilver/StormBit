@@ -356,6 +356,7 @@ const deployedContracts = {
     SimpleAgreement: {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       address: "0x7C7AB8D85f87BC3065BA63e0D773Ed49B5C7EF31",
 =======
       address: "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
@@ -363,6 +364,9 @@ const deployedContracts = {
 =======
       address: "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
 >>>>>>> 5204e80 (Merge branch 'dev/ngyixuan' of https://github.com/Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
+=======
+      address: "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+>>>>>>> 20cd9c0 (Merge branch 'dev/ngyixuan' of github.com:Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
       abi: [
         {
           inputs: [],
@@ -566,6 +570,7 @@ const deployedContracts = {
     StormBitCore: {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       address: "0x32419B24ee80b3eB9483ABea153dcB4c41F6d968",
 =======
       address: "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
@@ -573,6 +578,9 @@ const deployedContracts = {
 =======
       address: "0x610178dA211FEF7D417bC0e6FeD39F05609AD788",
 >>>>>>> 5204e80 (Merge branch 'dev/ngyixuan' of https://github.com/Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
+=======
+      address: "0x610178dA211FEF7D417bC0e6FeD39F05609AD788",
+>>>>>>> 20cd9c0 (Merge branch 'dev/ngyixuan' of github.com:Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
       abi: [
         {
           inputs: [
@@ -903,6 +911,7 @@ const deployedContracts = {
     StormBitLending: {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       address: "0xc850f4FAd122B3A988219e70e836660FAA67c4a2",
 =======
       address: "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
@@ -910,6 +919,9 @@ const deployedContracts = {
 =======
       address: "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6",
 >>>>>>> ea1f811 (fix: change landing page image)
+=======
+      address: "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6",
+>>>>>>> 20cd9c0 (Merge branch 'dev/ngyixuan' of github.com:Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
       abi: [
         {
           inputs: [],
@@ -3276,6 +3288,7 @@ const deployedContracts = {
     StormBitLendingVotes: {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       address: "0x4aea723E61DD123b8196DfD4039403d522e003C3",
 =======
       address: "0x0165878A594ca255338adfa4d48449f69242Eb8F",
@@ -3283,6 +3296,9 @@ const deployedContracts = {
 =======
       address: "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
 >>>>>>> 5204e80 (Merge branch 'dev/ngyixuan' of https://github.com/Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
+=======
+      address: "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
+>>>>>>> 20cd9c0 (Merge branch 'dev/ngyixuan' of github.com:Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
       abi: [
         {
           inputs: [],
