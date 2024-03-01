@@ -48,11 +48,7 @@ const CreationModal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
   const { data: stormBitCoreContract } = useScaffoldContract({
     contractName: "StormBitCore",
   });
-  const {
-    writeAsync: createPool,
-    isLoading: createPoolLoading,
-    data,
-  } = useScaffoldContractWrite({
+  const { writeAsync: createPool, isLoading: createPoolLoading } = useScaffoldContractWrite({
     contractName: "StormBitCore",
     functionName: "createPool",
     args: [
@@ -77,7 +73,7 @@ const CreationModal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
     blockConfirmations: 0,
   });
 
-  const { writeAsync: approveTokens, isSuccess: approveTokensSuccess } = useScaffoldContractWrite({
+  const { writeAsync: approveTokens } = useScaffoldContractWrite({
     contractName: "MockToken",
     functionName: "approve",
     args: [stormBitCoreContract ? stormBitCoreContract.address : "", parseEther("5000")],
@@ -90,6 +86,7 @@ const CreationModal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
     blockConfirmations: 0,
   });
 
+<<<<<<< HEAD
   const handleSubmit = () => {
     // createPool();
     // setIsModalOpen();
@@ -104,6 +101,8 @@ const CreationModal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
 >>>>>>> 69410e3 (merge conflicts)
 =======
 >>>>>>> 814ce69 (merge conflicts)
+=======
+>>>>>>> 314cf36 (updating components)
   return (
     <div className="container-modal">
       <div className="gap-4 content-modal">
@@ -291,11 +290,15 @@ const CreationModal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
           >
 =======
           <Button onClick={() => approveTokens()} size="large">
+<<<<<<< HEAD
 >>>>>>> 814ce69 (merge conflicts)
 =======
           <Button onClick={() => approveTokens()} size="large">
 >>>>>>> 13b6f35 (Merge branch 'dev/Gabriela' of github.com:Quantum3-Labs/StormBit-monorepo into dev/Gabriela)
             Create Pool
+=======
+            {createPoolLoading ? "Creating Pool" : "Create Pool"}
+>>>>>>> 314cf36 (updating components)
           </Button>
         </div>
       </div>
