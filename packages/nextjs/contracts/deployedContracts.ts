@@ -358,6 +358,7 @@ const deployedContracts = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       address: "0x7C7AB8D85f87BC3065BA63e0D773Ed49B5C7EF31",
 =======
       address: "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
@@ -371,6 +372,9 @@ const deployedContracts = {
 =======
       address: "0x70E5Db80338522F5C9A46Eb85AAA11ae501eB34b",
 >>>>>>> 3732883 (finish some function integration)
+=======
+      address: "0x70E5Db80338522F5C9A46Eb85AAA11ae501eB34b",
+>>>>>>> 06b9a9b (Merge branch 'main' into dev/landing-page)
       abi: [
         {
           inputs: [],
@@ -590,6 +594,7 @@ const deployedContracts = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       address: "0x32419B24ee80b3eB9483ABea153dcB4c41F6d968",
 =======
       address: "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
@@ -603,6 +608,9 @@ const deployedContracts = {
 =======
       address: "0xf9e46fb24842635604de456681148b951F8e2CA9",
 >>>>>>> 3732883 (finish some function integration)
+=======
+      address: "0xf9e46fb24842635604de456681148b951F8e2CA9",
+>>>>>>> 06b9a9b (Merge branch 'main' into dev/landing-page)
       abi: [
         {
           inputs: [
@@ -935,6 +943,7 @@ const deployedContracts = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       address: "0xc850f4FAd122B3A988219e70e836660FAA67c4a2",
 =======
       address: "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
@@ -948,6 +957,9 @@ const deployedContracts = {
 =======
       address: "0xa469458A8De06c6433407DD9c1e82A18126e451f",
 >>>>>>> 3732883 (finish some function integration)
+=======
+      address: "0xa469458A8De06c6433407DD9c1e82A18126e451f",
+>>>>>>> 06b9a9b (Merge branch 'main' into dev/landing-page)
       abi: [
         {
           inputs: [],
@@ -3312,6 +3324,7 @@ const deployedContracts = {
       },
     },
     StormBitLendingVotes: {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7617,6 +7630,9 @@ const deployedContracts = {
 =======
       address: "0x4dD955166E2d614dd30951b0b7D1788aeFbA02AB",
 >>>>>>> 3732883 (finish some function integration)
+=======
+      address: "0x4dD955166E2d614dd30951b0b7D1788aeFbA02AB",
+>>>>>>> 06b9a9b (Merge branch 'main' into dev/landing-page)
       abi: [
         {
           inputs: [],
