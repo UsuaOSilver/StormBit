@@ -87,23 +87,6 @@ const CreationModal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
     blockConfirmations: 0,
   });
 
-<<<<<<< HEAD
-  const handleSubmit = () => {
-    // createPool();
-    // setIsModalOpen();
-  };
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-  console.log(data, "gab");
-  console.log(createPoolLoading);
-
-=======
->>>>>>> 69410e3 (merge conflicts)
-=======
->>>>>>> 814ce69 (merge conflicts)
-=======
->>>>>>> 314cf36 (updating components)
   return (
     <div className="container-modal">
       <div className="gap-4 content-modal">
@@ -277,29 +260,8 @@ const CreationModal: React.FC<ModalProps> = ({ setIsModalOpen }) => {
           </form>
         </div>
         <div className="flex items-center justify-center">
-<<<<<<< HEAD
-<<<<<<< HEAD
-          <Button
-<<<<<<< HEAD
-            onClick={createPool}
-=======
-            onClick={() => {
-              handleSubmit();
-            }}
->>>>>>> 912e177 ( create pool form)
-            size="large"
-          >
-=======
           <Button onClick={() => approveTokens()} size="large">
-<<<<<<< HEAD
->>>>>>> 814ce69 (merge conflicts)
-=======
-          <Button onClick={() => approveTokens()} size="large">
->>>>>>> 13b6f35 (Merge branch 'dev/Gabriela' of github.com:Quantum3-Labs/StormBit-monorepo into dev/Gabriela)
-            Create Pool
-=======
             {createPoolLoading ? "Creating Pool" : "Create Pool"}
->>>>>>> 314cf36 (updating components)
           </Button>
         </div>
       </div>

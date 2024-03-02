@@ -112,22 +112,12 @@ function Borrow({ poolAddress }: BorrowProps) {
       <div className="flex flex-col">
         <span className="text-[#4A5056] font-bold my-2">Amount to Borrow</span>
         <div className="flex border border-solid border-[#EAEBEF] rounded-[5px] justify-between">
-<<<<<<< HEAD
-<<<<<<< HEAD
-          <input type="text" className="p-1 focus:outline-none w-[500px] border-none"></input>
-=======
-=======
->>>>>>> 20cd9c0 (Merge branch 'dev/ngyixuan' of github.com:Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
           <input
             value={borrowConfig.amount.toString()}
             onChange={e => setBorrowConfig({ ...borrowConfig, amount: BigInt(e.target.value) })}
             type="number"
             className="p-1 focus:outline-none w-[500px] border-none"
           ></input>
-<<<<<<< HEAD
->>>>>>> c4e5a7a (fix: pass form value to request loan function)
-=======
->>>>>>> 20cd9c0 (Merge branch 'dev/ngyixuan' of github.com:Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
           <div className="flex items-center justify-center px-1">
             <ul className="main-menu">
               <li className="relative main-menu-item">
@@ -201,12 +191,6 @@ function Borrow({ poolAddress }: BorrowProps) {
             <div className="flex flex-col">
               <span>Payment Schedule</span>
               <div className="flex border border-solid border-[#EAEBEF] rounded-[5px] justify-between">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <input type="text" className="p-1 focus:outline-none w-[500px] border-none"></input>
-=======
-=======
->>>>>>> 20cd9c0 (Merge branch 'dev/ngyixuan' of github.com:Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
                 <input
                   value={borrowConfig.baseAgreementSettings.paymentSchedule.toString()}
                   onChange={e =>
@@ -221,10 +205,6 @@ function Borrow({ poolAddress }: BorrowProps) {
                   type="text"
                   className="p-1 focus:outline-none w-[500px] border-none"
                 ></input>
-<<<<<<< HEAD
->>>>>>> c4e5a7a (fix: pass form value to request loan function)
-=======
->>>>>>> 20cd9c0 (Merge branch 'dev/ngyixuan' of github.com:Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
                 <div className="flex items-center justify-center px-1">
                   <ul className="main-menu">
                     <li className="relative main-menu-item">
@@ -276,34 +256,16 @@ function Borrow({ poolAddress }: BorrowProps) {
                 </div>
               </div>
               <span>Penalty</span>
-<<<<<<< HEAD
-<<<<<<< HEAD
-              <input type="text" className="p-1 focus:outline-none border border-solid border-[#EAEBEF] rounded-[5px]"/>
-=======
-=======
->>>>>>> 20cd9c0 (Merge branch 'dev/ngyixuan' of github.com:Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
               <input
                 type="text"
                 className="p-1 focus:outline-none border border-solid border-[#EAEBEF] rounded-[5px]"
               />
-<<<<<<< HEAD
->>>>>>> 5204e80 (Merge branch 'dev/ngyixuan' of https://github.com/Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
-=======
->>>>>>> 20cd9c0 (Merge branch 'dev/ngyixuan' of github.com:Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
             </div>
           )}
           {selectedAgreement === "nft" && (
             <div className="flex flex-col">
               <span>NFT Address</span>
-<<<<<<< HEAD
-<<<<<<< HEAD
-              <input type="text" className="focus:outline-none"/>
-=======
               <input type="text" className="focus:outline-none" />
->>>>>>> 5204e80 (Merge branch 'dev/ngyixuan' of https://github.com/Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
-=======
-              <input type="text" className="focus:outline-none" />
->>>>>>> 20cd9c0 (Merge branch 'dev/ngyixuan' of github.com:Quantum3-Labs/StormBit-monorepo into dev/ngyixuan)
               <span>Token</span>
               <div className="flex border border-solid border-[#EAEBEF] rounded-[5px] justify-between">
                 <input type="text" className="p-1 w-[500px] focus:outline-none border-none"></input>

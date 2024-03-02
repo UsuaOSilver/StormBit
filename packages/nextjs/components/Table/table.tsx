@@ -14,31 +14,12 @@ interface PoolResult {
 }
 
 function Table() {
-<<<<<<< HEAD
-  const [poolList, setPoolList] = useState([] as PoolData[]);
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-  const poolId = 1;
-  const { data } = useScaffoldContractRead({
-    contractName: "StormBit",
-    functionName: "getPoolData",
-    args: [BigInt(poolId)],
-=======
-=======
->>>>>>> 814ce69 (merge conflicts)
-=======
   const [poolList, setPoolList] = useState([] as Pools[]);
->>>>>>> 137163d (fix: Navigate to pool detail page and show pool data)
   // get the events from the contract
   const { data: poolAddresses, isLoading: poolAddressesLoading } = useScaffoldContractRead({
     contractName: "StormBitCore",
     functionName: "getPools",
     watch: true,
-<<<<<<< HEAD
->>>>>>> 69410e3 (merge conflicts)
-=======
->>>>>>> 814ce69 (merge conflicts)
   });
 
   const { data: LendingContract } = useScaffoldContract({
