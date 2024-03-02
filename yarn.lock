@@ -2073,6 +2073,7 @@ __metadata:
   dependencies:
     "@ethersproject/providers": ~5.7.2
     "@heroicons/react": ~2.0.11
+    "@next/font": ^14.1.0
     "@particle-network/auth": ^1.3.0
     "@particle-network/rainbowkit-ext": ^1.3.0
     "@rainbow-me/rainbowkit": 1.3.0
@@ -11787,7 +11788,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "se-2@workspace:."
   dependencies:
-    "@next/font": ^14.1.0
     husky: ~8.0.3
     lint-staged: ~13.2.2
   languageName: unknown
